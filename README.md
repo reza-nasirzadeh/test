@@ -156,8 +156,8 @@ Epoch 10/10
 <li>If not explicitly specified, model changes are comparing to the base model</li>
 </ul>
 <p dir="auto">Based on the test results, it can be concluded that the base model which only has one convolution layer, one pooling layer and a MNN performs this specific task poorly with accuracy of 0.0531. A better approach is by adding another convolution layer right after the first one and before the pooling layer which boosts the accuracy score to 0.9780. According to model 4, adding a pooling layer to the base model will not perform well. By adjusting the parameters based on model 3, the final result is maximized when modifying the pool size from 2x2 to 3x3, which scored at 0.9809</p>
-<h2 tabindex="-1" dir="auto"><a id="user-content-video-demo" class="anchor" aria-hidden="true" href="#video-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Video Demo</h2>
-<p dir="auto"><a href="https://youtu.be/IHxHY1ztV1c" rel="nofollow"><img src="https://camo.githubusercontent.com/1c02ea54655627a810743cf1275ee0fca60275425daa78e81a80cf22f93d5c8e/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4948784859317a745631632f302e6a7067" alt="Traffic Project Video" data-canonical-src="https://img.youtube.com/vi/IHxHY1ztV1c/0.jpg" style="max-width: 100%;"></a></p>
+
+
 
 
 ### Installation-
