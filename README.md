@@ -1,5 +1,12 @@
-## Traffic
+# Project 5: Traffic
 
+## Short Video: 
+
+## programming by:
+- Reza Nasirzadeh Ezmareh
+
+
+## Description:
 An AI that uses Tensorflow to train a convolutional neural network to identify which traffic sign appears in a photograph
 
 ## Background
@@ -80,6 +87,3 @@ Epoch 10/10
 
 Based on the test results, it can be concluded that the base model which only has one convolution layer, one pooling layer and a MNN performs this specific task poorly with accuracy of 0.0531. A better approach is by adding another convolution layer right after the first one and before the pooling layer which boosts the accuracy score to 0.9780. According to model 4, adding a pooling layer to the base model will not perform well. By adjusting the parameters based on model 3, the final result is maximized when modifying the pool size from 2x2 to 3x3, which scored at 0.9809
 
-## Video Demo
-
-[![Traffic Project Video](https://camo.githubusercontent.com/1c02ea54655627a810743cf1275ee0fca60275425daa78e81a80cf22f93d5c8e/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4948784859317a745631632f302e6a7067)](https://youtu.be/IHxHY1ztV1c)
