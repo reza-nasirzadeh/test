@@ -6,7 +6,7 @@
 Reza Nasirzadeh Ezmareh
 
 
-## Description:
+## Description
 An AI that uses Tensorflow to train a convolutional neural network to identify which traffic sign appears in a photograph
 
 ## Background
